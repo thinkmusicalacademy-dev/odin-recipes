@@ -1,24 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="../page.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Drinks Recipe</title>
 </head>
 <body>
-    <h1>Celebration Fruit Punch</h1>
-    <p><a href="../index.html"><strong>Home</strong></a> | Breakfast | Lunch | Afternoon Snack | Dinner |<strong> Drinks</strong></p>
+    <h1 id="top">Celebration Fruit Punch</h1>
+
+    <div class="nav-menu">
+        <button onclick="window.location.href='../index.html'">HOME</button>
+        <button onclick="window.location.href='#ingredients'">Ingredients</button>
+        <button onclick="window.location.href='#steps'">Steps</button>
+    </div>
+    
+    <p> Breakfast | Lunch | Afternoon Snack | Dinner |<strong class="menu"> Drinks</strong></p>
+    <h2>Description</h2>
     <p>Celebration Fruit Punch recipe is the cocktail you make for celebratory and holiday gatherings like Christmas, parties, Easter, Thanksgiving and Mothers Day. Its sparkling, its colourful, its refreshing rather than overly sweet, and its as boozy as you want it to be  or non alcoholic!</p>
-    <img src="../images/5_Fruit_Punch.jpg " alt="Celebration Fruit Punch">
-    <h2>Ingredients</h2>
-    <ul>
+    <img src="../images/5_Fruit_Punch.jpg " alt="Celebration Fruit Punch"width="646px" height="907px">
+    <h2>Ingredients <a href="#top"><img src="../images/up-arrow.png"></a></h2>
+    <ul id="ingredients">
         <li>4 cups (1 L / 1 qt) cranberry juice or cranberry pomegranate juice</li>
         <li>2 cups (500ml) ginger ale</li>
         <li>4 cups (1 L / 1 qt) sparkling apple juice</li>
         <li>1 1/2 cups (375ml) white rum (Bacardi)</li>
     </ul>
-    <h2>Steps</h2>
-    <ol>
+    <h2>Steps <a href="#top"><img src="../images/up-arrow.png"></a></h2>
+    <ol id="steps">
         <li><strong>Cranberry Juice  </strong>Use Cranberry juice (like Ocean Spray Cranberry Classic)or Cranberry Pomegranate juice.</li>
         <li><strong>NOT sub</strong>for anything labelled LIGHT or LOW SUGAR or PURE Cranberry Juice as it is VERY sour. If you accidentally buy that, you will probably need to add sugar into the punch. Just mix boiling water with sugar to dissolve, then add into punch until its to your taste.</li>
         <li><strong>Ginger Ale  </strong>not ginger BEER. Ginger ale is just fizzy water thats flavoured with ginger. Ginger beer is non alcoholic but fermented and has a stronger ginger and spice flavour. It will still be nice with ginger beer  but flavour will be a bit different!</li>

@@ -1,34 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Your Daily Recipes</title>
 </head>
 <body>
-    <img src="./images/Think_reciepe_logo.svg" alt="Think Recipes" width="200px">
-    <h1>Your Daily Recipes</h1>
-    <ul>
-        <li>
-            <a href="pages/breakfast.html" target="_self" rel="noopener noreferrer"><strong>Breakfast</strong></a>
-            <p>A savory, golden-crusted start to fuel your morning.</p>
-        </li>
-        <li>
-            <a href="pages/lunch.html" target="_self" rel="noopener noreferrer"><strong>Lunch</strong></a>
-            <p>A hearty meal to keep you going through the afternoon.</p>
-        </li>
-        <li>
-            <a href="pages/afternoon_snack.html" target="_self" rel="noopener noreferrer"><strong>Afternoon Snack</strong></a>
-            <p>A quick bite to tide you over until dinner.</p>
-        </li>
-        <li>
-            <a href="pages/dinner.html" target="_self" rel="noopener noreferrer"><strong>Dinner</strong></a>
-            <p>A satisfying meal to end your day on a high note.</p>
-        </li>
-        <li>
-            <a href="pages/drinks.html" target="_self" rel="noopener noreferrer"><strong>Drinks</strong></a>
-            <p>Refreshments to quench your thirst and complement your meals.</p>
-        </li>
-    </ul>
+    <div class="master-container">  
+        <div class="logo-container">
+            <img src="./images/transparent_logo.png" alt="Think Recipes" width="500px" height="500px" id="logo">
+            <h1 class="logo-text">One Place Solution For Your All Recipes</h1>
+        </div>
+
+        <div class="heading-container">
+            <h1 class="heading">Recipes For Today</h1>
+        </div>
+
+            <div class="product-card">
+                <img src="./images/1_Breakfast.jpg" alt="Cheese & Bacon Strata Cake" class="product-image" width="648px" height="907px">
+                 <div class="card-title-para">   
+                     <h2>Breakfast</h2>
+                    <p>A savory, golden-crusted start to fuel your morning.</p>
+                </div>
+                <a href="pages/breakfast.html" target="_self" rel="noopener noreferrer" class="links"><button>View Recipe</button></a>
+            </div>
+
+            <div class="product-card">
+                <img src="./images/2_Lunch.jpg" alt="Couscous Salad with Sun Dried Tomato and Feta" class="product-image" width="646px" height="905px">
+                <div class="card-title-para"> 
+                    <h2>Lunch</h2>
+                    <p>A hearty meal to keep you going through the afternoon.</p>
+                </div>    
+                <a href="pages/lunch.html" target="_self" rel="noopener noreferrer" class="links"><button>View Recipe</button></a>
+            </div>
+
+            <div class="product-card">
+                <img src="./images/3_Afternoon_Snack.jpg" alt="Parmesan Thyme Bread Crust Snacks" class="product-image" width="646px" height="973px">
+                <div class="card-title-para"> 
+                    <h2>Afternoon Snacks</h2> 
+                    <p>A quick bite to tide you over until dinner.</p>
+                </div>
+                <a href="pages/afternoon_snack.html" target="_self" rel="noopener noreferrer" class="links"><button>View Recipe</button></a>
+            </div>
+
+            <div class="product-card">
+                <img src="./images/4_Dinner.jpg" alt="Crunchy Chicken, Potato and Salad" class="product-image"  width="646px" height="973px">
+                <div class="card-title-para"> 
+                    <h2>Dinner</h2>
+                    <p>A satisfying meal to end your day on a high note.</p>
+                </div>
+                <a href="pages/dinner.html" target="_self" rel="noopener noreferrer" class="links"><button>View Recipe</button></a>
+            </div>
+
+            <div class="product-card">
+                <img src="./images/5_Fruit_Punch.jpg" alt="Celebration Fruit Punch" class="product-image" width="646px" height="907px">
+                <div class="card-title-para">     
+                    <h2>Drinks</h2>
+                    <p>Refreshments to quench your thirst and complement your meals.</p>
+                </div>
+                    <a href="pages/drinks.html" target="_self" rel="noopener noreferrer" class="links"><button>View Recipe</button></a>
+            </div>
+
+    </div>
 </body>
 </html>
